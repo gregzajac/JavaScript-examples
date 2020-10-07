@@ -1,0 +1,32 @@
+#infoPart {
+    height: 5vh;
+    background-color: rgb(204, 192, 186);
+}
+
+#infoPart h1 {
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 2px darksalmon;
+}
+
+#infoPart h2 {
+    color:indigo;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#gamePart {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: rgb(204, 192, 186);
+}
+
+canvas {
+    border: 3px solid white;
+}
