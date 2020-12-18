@@ -5,16 +5,44 @@
   color: white;
 }
 
-
 .App-header {
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-
 .layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 50px;
+  margin: 30px;
 }
+
+.orange {
+  color: orange;
+}
+
+.purple {
+  color: purple;
+}
+
+.rate-container {
+  margin-top: 20px;
+  border-top: 2px solid purple;
+}
+
+.rate-container .fa-star {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.movie-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+}
+
+.movie-item svg {
+  font-size: 1.2rem;
+  margin: 22px 6px;
+}
+
