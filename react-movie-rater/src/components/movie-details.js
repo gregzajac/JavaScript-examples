@@ -44,7 +44,7 @@ function MovieDetails(props) {
     return (
         <React.Fragment>
             { mov ? (
-                <div style={{backgroundColor: 'red'}}>
+                <div>
                     <h2>{mov.title}</h2>
                     <p>{mov.description}</p>
                     <FontAwesomeIcon icon={faStar} className={mov.avg_rating > 0 ? "orange" : ""}/>

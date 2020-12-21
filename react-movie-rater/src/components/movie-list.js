@@ -25,7 +25,7 @@ function MovieList(props) {
     }
 
     return (
-        <div style={{backgroundColor: 'green'}}>
+        <div>
             { props.movies && props.movies.map( movie => {
                 return (
                     <div key={movie.id} className="movie-item">

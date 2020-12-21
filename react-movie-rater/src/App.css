@@ -14,8 +14,36 @@
 .layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
+  grid-gap: 100px;
   margin: 30px;
+}
+
+.login-container {
+  width: 50%;
+  margin: 50px 25%;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 0.9rem;
+}
+
+button {
+  color: #444;
+  background-color: #f3f3f3;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+button:disabled {
+  color: #f3f3f3;
+  background-color: #444;
+  cursor: not-allowed;
 }
 
 .orange {
@@ -46,3 +74,19 @@
   margin: 22px 6px;
 }
 
+.fa-trash {
+  color: tomato;
+}
+
+.fa-edit {
+  color: lightgreen;
+}
+
+h1 {
+  color: orange;
+}
+
+h1 .fa-film {
+  color: white;
+  transform: rotate(30deg);
+}
