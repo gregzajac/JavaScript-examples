@@ -19,6 +19,16 @@ export class API {
         }).then( resp => resp.json())
     }
 
+    static getMovies(token) {
+        return fetch("http://127.0.0.1:8000/api/movies/", {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Token ${token}`
+            }
+            }).then( resp => resp.json())
+    }
+
     static updateMovie(mov_id, body, token) {
         return fetch(`http://127.0.0.1:8000/api/movies/${mov_id}/`, {
             method: 'PUT',
